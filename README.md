@@ -34,4 +34,4 @@ The libraries in this repository licensed under the [Amazon Software License](ht
 
 ## Added/Modified for Docker Container
 I am not able to start spark that's why I removed two jars netty-3.6.2.Final.jar and netty-all-4.0.23.Final.jar within docker container
-I have also added snowflake connector within pom.xml for our project.
+I have also added snowflake connector within pom.xml.
