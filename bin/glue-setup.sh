@@ -18,8 +18,8 @@ export PYTHONPATH="$GLUE_PY_FILES:$PYTHONPATH"
 # Run mvn copy-dependencies target to get the Glue dependencies locally
 mvn -f $ROOT_DIR/pom.xml -DoutputDirectory=$ROOT_DIR/jarsv1 dependency:copy-dependencies
 # Remove two jars for jar conflict problems with SPARK_HOME/jars 
-rm ${ROOT}/jarsv1/netty-3.6.2.Final.jar
-rm ${ROOT}/jarsv1/netty-all-4.0.23.Final.jar
+rm ${ROOT_DIR}/jarsv1/netty-3.6.2.Final.jar
+rm ${ROOT_DIR}/jarsv1/netty-all-4.0.23.Final.jar
 
 export SPARK_CONF_DIR=${ROOT_DIR}/conf
 mkdir $SPARK_CONF_DIR
