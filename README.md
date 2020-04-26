@@ -31,3 +31,7 @@ pytest: ./bin/gluepytest
 ## Licensing
 
 The libraries in this repository licensed under the [Amazon Software License](http://aws.amazon.com/asl/) (the "License"). They may not be used except in compliance with the License, a copy of which is included here in the LICENSE file.
+
+## Added/Modified for Docker Container
+I am not able to start spark that's why I removed two jars netty-3.6.2.Final.jar and netty-all-4.0.23.Final.jar within docker container
+I have also added snowflake connector within pom.xml.
